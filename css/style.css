@@ -1,0 +1,139 @@
+{
+	outline: blue dotted 2px;
+}
+
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 0px;
+}
+
+p, li {
+	font-size: 1.35em!important;
+	color: rgb(51, 51, 51);
+}
+
+h1 {
+	font-size: 2em!important;
+}
+
+a, a:link, a:hover, a:visited { 
+	text-decoration: none!important;
+	color: rgb(51, 51, 51)!important;
+}
+
+a:hover {
+	color: dimgrey!important;
+}
+
+
+
+/* --- Header --- */
+
+.jumbotron {
+	min-width: 100%;
+	height: 100vh;
+	background-color: lightgray!important;
+}
+
+.jumbotron .container {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.jumbotron .container img {
+	margin-bottom: 3.5%;
+	width: 400px;
+	max-width: 95%;
+}
+
+.jumbotron p {
+	font-size: 1.65em!important;
+}
+
+
+
+/* --- Content --- */
+
+.content-wrapper {
+	height: 100%;
+	margin-top: 5%;
+}
+
+.content-wrapper .row .about {
+	margin-bottom: 5%;
+}
+
+.content-wrapper .row .solutions {
+	margin-bottom: 4%;
+}
+
+.container-fluid h1 {
+	margin-bottom: 10%;
+}
+
+.container-fluid li {
+	margin-bottom: 5%;
+}
+
+.container-fluid img {
+	width: 100%;
+}
+
+.solutions img {
+	width: 100%;
+}
+
+.tanker-wrapper, .cargo-wrapper {
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+.cargo-wrapper ul {
+	margin-bottom: 12%;
+}
+
+.cargo-wrapper img {
+	margin-bottom: 12%;
+}
+
+.solutions-grid {
+	margin-bottom: 5%;
+}
+
+
+/* --- Footer --- */
+
+.footer {
+	position: absolute;
+	width: 100%;
+	background-color: lightgray;
+}
+
+.footer h1 {
+	margin-top: 5%;
+	margin-bottom: 3%;
+}
+
+.footer p {
+	font-weight: 300;
+}
+
+.contact {
+	margin-bottom: 5%;
+}
+
+.copyright-text {
+	font-size: .75em!important;
+}
+
+
+
+
+
